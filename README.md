@@ -24,13 +24,12 @@ Note that once you open the [index.html](https://github.com/walidpiano/Neighborh
 
 
 ## Application Screenshot:
-![main app when not logged in](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/main.PNG "main")
-![main app when logged in](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/main%20when%20logged%20in.PNG "main when logged")
-![signup](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/signup.PNG "signup")
-![login](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/login.PNG "login")
-![category](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/category.PNG "category")
-![item](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/item.PNG "item")
-![json](https://github.com/walidpiano/CatalogApp/blob/master/app/app%20images/json.PNG "json")
+![Wide View](https://github.com/walidpiano/Neighborhood-Map/blob/master/img/Capture1.JPG "Wide View Image")
+![Narrow View With InfoWindow](https://github.com/walidpiano/Neighborhood-Map/blob/master/img/Capture2.JPG "Narrow View With InfoWindow")
+
 
 ## Requirements
 The application doesn't need any requirements to run. Just any web browser :smile: !
+
+## Notification
+Unfortunately, due to Google Maps new pricing plan, the map will look in a dark color!
