@@ -15,12 +15,13 @@ p {
     color: #999;
 }
 
-a,
-a:hover,
-a:focus {
+li,
+li:hover,
+li:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .navbar {
@@ -82,13 +83,13 @@ a:focus {
     padding: 10px;
 }
 
-#sidebar ul li a {
+#sidebar ul li {
     padding: 10px;
     font-size: 1.1em;
     display: block;
 }
 
-#sidebar ul li a:hover {
+#sidebar ul li:hover {
     color: #7386D5;
     background: #fff;
 }
