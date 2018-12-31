@@ -273,8 +273,8 @@ $(document).ready(function () {
         $('#sidebar').toggleClass('active');
     });
 
-
     ko.applyBindings(new ViewModel());
+
     // Get the locations when dom is loaded
     $('form').submit();
 });
