@@ -1,13 +1,3 @@
-$(document).ready(function () {
-    // For pressing hamburger button
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-
-    // Get the locations when dom is loaded
-    $('form').submit();
-});
-
 
 // Locations array
 var locations = [
@@ -273,5 +263,18 @@ var ViewModel = function () {
 
 }
 
-//var vm = new ViewModel();
-ko.applyBindings(new ViewModel());
+
+
+
+
+$(document).ready(function () {
+    // For pressing hamburger button
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+
+
+    ko.applyBindings(new ViewModel());
+    // Get the locations when dom is loaded
+    $('form').submit();
+});
