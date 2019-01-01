@@ -277,4 +277,9 @@ $(document).ready(function () {
 
     // Get the locations when dom is loaded
     $('form').submit();
+
+    // Auto resize the map when window resized
+    google.maps.event.addDomListener(window, 'resize', function () {
+        map.fitBounds(bounds); // `bounds` is a `LatLngBounds` object
+    });
 });
